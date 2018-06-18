@@ -1,4 +1,5 @@
 import React from 'react';
+import '../src/App.css';
 import TodoForm from './components/TodoComponents/TodoForm';
 import TodoList from './components/TodoComponents/TodoList';
 
@@ -52,7 +53,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="main-container">
       <TodoForm
       value={this.state.todo}
       handleChange={this.changeTodo}

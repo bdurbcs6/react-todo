@@ -1,0 +1,6 @@
+
+.main-container {
+  background: url(../src/images/golden-gate.jpg);
+  background-size: cover;
+  height: 100vh;
+}
