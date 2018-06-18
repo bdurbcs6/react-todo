@@ -1,5 +1,6 @@
 import React from 'react';
 import TodoForm from './components/TodoComponents/TodoForm';
+import TodoList from './components/TodoComponents/TodoList';
 
 class App extends React.Component {
   constructor(props) {
@@ -16,7 +17,7 @@ class App extends React.Component {
     return (
       <div>
       <TodoForm />
-        <h2>{this.state.todos.task}</h2>
+      <TodoList />
       </div>
     );
   }
