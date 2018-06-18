@@ -1,8 +1,9 @@
 import React from 'react';
+import '../TodoComponents/TodoForm.css';
 
 const TodoForm = props => {
   return (
-    <form>
+    <form className="main-form">
       <input
         onChange={props.handleChange}
         type="text"
