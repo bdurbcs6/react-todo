@@ -8,9 +8,14 @@ class App extends React.Component {
     this.state = {
       todos: [
         {
-        task: "",
-        id: 0,
-        completed: false
+          task: 'Organize Garage',
+          id: 1528817077286,
+          completed: false
+        },
+        {
+          task: 'Bake Cookies',
+          id: 1528817084358,
+          completed: false
         }
       ],
       todo: ''
@@ -51,12 +56,12 @@ class App extends React.Component {
       <TodoForm
       value={this.state.todo}
       handleChange={this.changeTodo}
-      addTodo={this.addTodo}
-      clearTodos={this.clearCompleted}
+      handleAddTodo={this.addTodo}
+      handleClearTodos={this.clearCompleted}
       />
       <TodoList
         handleComplete={this.toggleComplete}
-        clearTodos={this.clearCompleted}
+        todos={this.state.todos}
       />
       </div>
     );
