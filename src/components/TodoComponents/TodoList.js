@@ -1,9 +1,10 @@
 import React from 'react';
 import Todo from './Todo';
+import '../TodoComponents/TodoList.css';
 
 const TodoList = props => {
   return (
-    <div>
+    <div className="todo-list">
       {props.todos.map(todo => (
         <Todo
           handleComplete={props.handleComplete}
