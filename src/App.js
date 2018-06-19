@@ -39,7 +39,8 @@ class App extends React.Component {
     let todos = this.state.todos.slice();
     todos = todos.filter(todo => !todo.completed);
     this.setState({ todos });
-  }
+  };
+
   render() {
     return (
       <div className="main-container">
