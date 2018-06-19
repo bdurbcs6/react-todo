@@ -11,8 +11,8 @@ const TodoForm = props => {
         value={props.value}
         placeholder="I want to go..."
         />
-      <button className="add-todo" onClick={props.handleAddTodo}>Add Destination</button>
-      <button className="clear-todo" onClick={props.handleClearTodos}>Been There</button>
+      <button className="add-todo-button" onClick={props.handleAddTodo}>Add Destination</button>
+      <button className="clear-todo-button" onClick={props.handleClearTodos}>Been There</button>
     </form>
   );
 };
