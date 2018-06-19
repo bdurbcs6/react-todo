@@ -2,6 +2,9 @@
 
 .todo-list {
   margin-left: 25px;
-  margin-top: 5px;
+  margin-top: 10px;
   text-shadow: 2px 2px 5px whitesmoke;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-family: cursive, sans-serif;
 }
