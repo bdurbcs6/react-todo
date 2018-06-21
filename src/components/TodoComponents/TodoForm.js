@@ -2,6 +2,7 @@ import React from 'react';
 import '../TodoComponents/TodoForm.css';
 
 const TodoForm = props => {
+  console.log(props.value)
   return (
     <form className="main-form">
       <input
