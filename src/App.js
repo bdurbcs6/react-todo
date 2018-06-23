@@ -10,13 +10,13 @@ class App extends React.Component {
       todos: [],
       todo: ''
     };
-  }
+  };
 
   addTodo = e => {
     e.preventDefault();
     const todos = this.state.todos.slice();
     todos.push({ task: this.state.todo, completed: false, id: Date.now() });
-    this.setState({ todos, todo: ''});
+    this.setState({ todos, todo: '' });
   };
 
   changeTodo = e => this.setState({ todo : e.target.value });
