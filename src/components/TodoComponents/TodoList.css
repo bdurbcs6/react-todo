@@ -8,3 +8,10 @@
   font-size: 1.8rem;
   font-family: cursive, sans-serif;
 }
+
+@media (max-width: 410px) {
+  .todo-list {
+    margin-left: 0;
+    text-align: center;
+  }
+}

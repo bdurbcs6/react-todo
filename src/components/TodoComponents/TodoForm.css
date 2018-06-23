@@ -13,3 +13,20 @@
   margin-left: 5px;
   color: #D3A173;
 }
+
+@media (max-width: 410px) {
+
+  .main-form {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .clear-todo-button {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .add-todo-button {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
